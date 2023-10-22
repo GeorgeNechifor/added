@@ -8,3 +8,7 @@ const getNumber = () => {
         }
     } , 1000)
 }
+
+function restoreValue(number , promise) {
+    console.log(number.value);
+}
